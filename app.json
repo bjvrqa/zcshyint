@@ -1,6 +1,6 @@
 {
-    "name": "dnreu4xshy",
-    "description": "dnreu4xshy websocket proxy on heroku",
+    "name": "zcshyint",
+    "description": "zcshyint websocket proxy on heroku",
     "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
     "env": {
         "AA": {
@@ -17,18 +17,18 @@
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/bjvrqa/dnreu4xshyhxr/main/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/bjvrqa/zcshyint/main/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/bjvrqa/dnreu4xshyhxr/main/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/bjvrqa/zcshyint/main/etc/xray.json"
         },
         "StoreFiles": {
             "description": "自定义网络地址读取存储文件列表",
-            "value": "https://raw.githubusercontent.com/bjvrqa/dnreu4xshyhxr/main/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/bjvrqa/zcshyint/main/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/bjvrqa/dnreu4xshyhxr",
-    "repository": "https://github.com/bjvrqa/dnreu4xshyhxr",
+    "website": "https://github.com/bjvrqa/zcshyint",
+    "repository": "https://github.com/bjvrqa/zcshyint",
     "stack": "container"
 }
